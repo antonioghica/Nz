@@ -1,0 +1,14 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int nz(int x)
+{
+    int p=5,nr=0;
+    while(p<=x)
+    {
+        nr=nr+x/p;
+        p*=5;
+    }
+    return nr;
+
+}
